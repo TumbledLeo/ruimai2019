@@ -1,0 +1,391 @@
+.header {
+  width: 100%;
+  height: 36px;
+  background: #fe0000;
+  z-index: 9;
+  position: relative;
+}
+.header ul {
+  width: 1600px;
+  margin: 0 auto;
+}
+.header ul > li {
+  float: left;
+  line-height: 36px;
+  cursor: pointer;
+}
+.header ul > li > p {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 40px 0 20px;
+  background: url(../images/down.png) no-repeat center right;
+  background-position: 90% 50% ;
+}
+.header ul > li > p:last-child {
+  background: none;
+}
+.header ul > li .show {
+  display: none;
+  padding: 10px 10px 0 10px;
+  background: rgba(254, 0, 0, 0.6);
+  position: absolute;
+}
+.header ul > li .show img {
+  margin-right: 10px;
+}
+.header ul > li .show ol {
+  float: right;
+}
+.header ul > li .show ol p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+}
+.header ul > li:hover > p {
+  background-color: #fe6666;
+}
+.header ul > li:hover .show {
+  display: block;
+}
+.header .tel {
+  width: 1600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+  top: 14px;
+}
+.header .tel img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url(../images/banner.jpg) no-repeat center;
+  position: relative;
+}
+.banner .logo {
+  margin-top: 26px;
+}
+.banner .nav {
+  position: absolute;
+  left: 400px;
+  top: 36px;
+}
+.banner .nav li {
+  float: left;
+  margin: 0 20px;
+  line-height: 30px;
+}
+.banner .nav li a {
+  color: #fff;
+  font-size: 18px;
+}
+.banner .nav li.active,
+.banner .nav li:hover {
+  border-bottom: 2px solid #fff;
+}
+.banner .di {
+  background: rgba(1, 49, 118, 0.8);
+  width: 260px;
+  padding: 14px 0 38px 14px;
+  border-radius: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+.banner .di > li h6 {
+  background: url(../images/di_bg.png) no-repeat center;
+  background-position: 90% 50% ;
+  height: 44px;
+  position: relative;
+}
+.banner .di > li h6 p {
+  text-align: left;
+  position: absolute;
+  left: 90px;
+  line-height: 44px;
+  color: #fff;
+}
+.banner .di > li h6 img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.banner .di > li h6.active,
+.banner .di > li h6:hover {
+  background: #20447e url(../images/di_bg.png) no-repeat center;
+  background-position: 90% 50% ;
+}
+.banner .di > li .des {
+  position: absolute;
+  left: 258px;
+  top: 0;
+  padding: 0 20px;
+  display: none;
+}
+.banner .di > li .show {
+  padding: 0 14px;
+  border-radius: 10px;
+  background: rgba(1, 49, 118, 0.8);
+  width: 630px;
+  height: 360px;
+  float: left;
+}
+.banner .di > li .show h5 {
+  color: #fff;
+  border-bottom: 1px solid #3e3c3e;
+  position: relative;
+  line-height: 50px;
+  font-size: 16px;
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+.banner .di > li .show h5:after {
+  content: '';
+  width: 80px;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.banner .di > li .show ol li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.banner .di > li .show ol li p {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.banner .di > li .show ol li img {
+  border-radius: 4px;
+}
+.banner .di > li .show ol li:nth-of-type(5n) {
+  margin-right: 0;
+}
+.banner .di > li .show .more {
+  width: 98px;
+  height: 54px;
+  border: 1px solid #3e3c3e;
+  text-align: center;
+  line-height: 54px;
+}
+.banner .di > li .show .more a {
+  color: #fff;
+  font-size: 14px;
+}
+.banner .di > li:hover .des {
+  display: block;
+}
+.banner .di .des.remen h5 {
+  border-bottom: 1px solid #fff;
+  width: 340px;
+}
+.banner .di .des.remen h5:after {
+  display: none;
+}
+.banner .di .des.remen ol {
+  width: 340px;
+}
+.banner .di .des.remen ol li:nth-of-type(3n) {
+  margin-right: 0;
+}
+.banner .di .des.remen ol li:nth-of-type(5n) {
+  margin-right: 20px;
+}
+.banner .di .des.remen ol .more {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.banner .di .des.remen .price {
+  width: 140px;
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+.banner .di .des.remen .price h4 {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.banner .di .des.remen .price li a {
+  line-height: 34px;
+  font-size: 14px;
+  color: #f4f5f6;
+  text-align: left;
+  letter-spacing: 2px;
+}
+.icon.inner {
+  margin: 50px auto;
+}
+.icon.inner ul {
+  display: flex;
+  justify-content: space-between;
+}
+.icon.inner ul li {
+  /*  width:250px; */
+}
+.icon.inner ul li img {
+  margin-right: 20px;
+}
+.icon.inner h3 {
+  font-size: 26px;
+  color: #dc0422;
+  position: absolute;
+}
+.icon.inner h3:after {
+  content: '+';
+  color: #dc0422;
+  position: absolute;
+  right: -18px;
+  top: -6px;
+}
+.icon.inner .des {
+  float: right;
+}
+.icon.inner .des p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  display: block;
+}
+.icon.inner .des p.first {
+  margin-top: 30px;
+}
+.house {
+  position: relative;
+}
+.house h2 {
+  color: #dc0422;
+  font-size: 24px;
+  text-align: left;
+}
+.house .tabs {
+  position: absolute;
+  right: 0;
+}
+.house .tabs li {
+  padding: 10px 20px;
+  color: #000;
+  font-size: 14px;
+  float: left;
+  border-radius: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.house .tabs li.cur {
+  background: #1682e1;
+  color: #fff;
+}
+.house .tabs a {
+  line-height: 34px;
+  font-size: 14px;
+}
+.house .tabContents {
+  margin-top: 80px;
+}
+.house .tabContents .tabContent ol {
+  display: flex;
+  justify-content: space-between;
+}
+.house .tabContents .tabContent li {
+  width: 382px;
+  box-shadow: 4px 4px 10px #b9b9b9;
+  position: relative;
+  color: #4c4c4c;
+  margin-bottom: 30px;
+}
+.house .tabContents .tabContent li img {
+  width: 382px;
+  height: 220px;
+}
+.house .tabContents .tabContent li span {
+  display: block;
+  padding: 10px 20px;
+  background: rgba(254, 0, 0, 0.6);
+  position: absolute;
+  top: 184px;
+  color: #fff;
+  left: 0;
+  letter-spacing: 1px;
+}
+.house .tabContents .tabContent li h2 {
+  font-size: 24px;
+  color: #0c4c9b;
+  text-indent: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 40px;
+}
+.house .tabContents .tabContent li h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin: 0 20px;
+  border-bottom: 1px solid #4c4c4c;
+}
+.house .tabContents .tabContent li p {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 0 20px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.inner {
+  width: 1600px;
+  margin: 0 auto;
+}
+@media (max-width: 1620px) {
+  .header ul {
+    width: 1200px;
+  }
+  .inner {
+    width: 1200px;
+  }
+  .header .tel {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 14px;
+  }
+  .header .tel img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+  }
+  .house .tabContents .tabContent li {
+    width: 290px;
+  }
+  .house .tabContents .tabContent li img {
+    width: 290px;
+    height: 167px;
+  }
+  .house .tabContents .tabContent li span {
+    top: 131px;
+  }
+  .house .tabContents .tabContent li h2 {
+    font-size: 16px;
+  }
+  .house .tabContents .tabContent li h3 {
+    font-size: 14px;
+  }
+  .house .tabContents .tabContent li p {
+    font-size: 12px;
+  }
+}
