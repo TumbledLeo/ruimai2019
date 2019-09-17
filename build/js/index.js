@@ -3,7 +3,7 @@
 var root = "./";
 // 加载
 var loader = new resLoader({
-    resources: [root + 'images/down.png'],
+    resources: [root + 'images/down.png', root + 'images/banner.jpg'],
     onStart: function onStart(total) {
         // 开始的回调
     },
@@ -44,6 +44,7 @@ function tabCtrl(ele) {
     });
 }
 tabCtrl('.house');
+tabCtrl('.video');
 
 /* $('.nav a').click(function(){
     $('html,body').animate({scrollTop: $(this.hash).offset().top - 100}, 600, function () {

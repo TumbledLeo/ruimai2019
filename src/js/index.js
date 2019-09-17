@@ -3,6 +3,7 @@ let root = "./";
 let loader = new resLoader({
     resources: [
         root + 'images/down.png',
+        root + 'images/banner.jpg',
     ],
     onStart: function (total) {
         // 开始的回调
@@ -44,7 +45,7 @@ function tabCtrl(ele) {
     });
 }
 tabCtrl('.house');
-
+tabCtrl('.video');
 
 /* $('.nav a').click(function(){
     $('html,body').animate({scrollTop: $(this.hash).offset().top - 100}, 600, function () {
