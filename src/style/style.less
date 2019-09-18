@@ -699,8 +699,94 @@
 }
 footer{
   width:100%;
-  height:324px;
+  height:300px;
+  padding:40px 0;
   background:#0c4c9b;
+  .nav_list{
+    display:flex;
+    justify-content: flex-start;
+    li{
+      position: relative;
+      padding:0 30px;
+
+      a{
+        color:#ffff;
+        font-size: 14px;
+      }
+    }
+    li:after{
+      content:'';
+      width:2px;
+      height:16px;
+      background:#fff;
+      position: absolute;
+      right:0;
+      top:0;
+    }
+  }
+  .city{
+    position: relative;
+    top:44px;
+    span{
+      color:#fff;
+      position: absolute;
+      left:30px;
+      top:10px;
+      font-size: 14px;
+      line-height: 36px;
+    }
+    ul{
+      display:flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width:780px;
+      position: absolute;
+      left:100px;
+      top:10px;
+      li{
+        position: relative;
+        width:130px;
+        text-align: center;
+        margin:10px 0;
+        a{
+          color:#fff;
+          font-size: 14px;
+        }
+      }
+      li:after{
+        content:'';
+        width:2px;
+        height:16px;
+        background:#fff;
+        position: absolute;
+        right:0;
+        top:0;
+      }
+    }
+  }
+  .citys{
+   top:140px; 
+  }
+  .ewm{
+    position: absolute;
+    top:0;
+    right:0;
+    ol{
+      display:flex;
+      justify-content: space-between;
+      margin-top:20px;
+    }
+    li{
+      width:140px;
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      color:#fff;
+      line-height: 30px;
+      font-size: 14px;
+    }
+  }
 }
 @media (max-width:1620px){
   .header ul{
@@ -802,5 +888,32 @@ footer{
       }
     }
     
+  }
+  footer{
+    .nav_list li a,.city ul li a{
+      font-size: 12px;
+    }
+    .city ul li{
+      width:114px;
+    }
+    .ewm{
+      text-align: right;
+      >a img{
+        width:314px;
+      }
+      ol{
+        width:320px;
+  
+      }
+      li{
+        width:98px;
+        img{
+          width:100%;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+    }
   }
 }

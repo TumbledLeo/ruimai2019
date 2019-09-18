@@ -675,8 +675,93 @@
 }
 footer {
   width: 100%;
-  height: 324px;
+  height: 300px;
+  padding: 40px 0;
   background: #0c4c9b;
+}
+footer .nav_list {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .nav_list li {
+  position: relative;
+  padding: 0 30px;
+}
+footer .nav_list li a {
+  color: #ffff;
+  font-size: 14px;
+}
+footer .nav_list li:after {
+  content: '';
+  width: 2px;
+  height: 16px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+footer .city {
+  position: relative;
+  top: 44px;
+}
+footer .city span {
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  font-size: 14px;
+  line-height: 36px;
+}
+footer .city ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 780px;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+footer .city ul li {
+  position: relative;
+  width: 130px;
+  text-align: center;
+  margin: 10px 0;
+}
+footer .city ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+footer .city ul li:after {
+  content: '';
+  width: 2px;
+  height: 16px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+footer .citys {
+  top: 140px;
+}
+footer .ewm {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+footer .ewm ol {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+footer .ewm li {
+  width: 140px;
+  text-align: center;
+}
+footer .ewm p {
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 14px;
 }
 @media (max-width: 1620px) {
   .header ul {
@@ -778,5 +863,30 @@ footer {
   .ad .rm .part p,
   .ad .news .part p {
     width: 280px;
+  }
+  footer .nav_list li a,
+  footer .city ul li a {
+    font-size: 12px;
+  }
+  footer .city ul li {
+    width: 114px;
+  }
+  footer .ewm {
+    text-align: right;
+  }
+  footer .ewm > a img {
+    width: 314px;
+  }
+  footer .ewm ol {
+    width: 320px;
+  }
+  footer .ewm li {
+    width: 98px;
+  }
+  footer .ewm li img {
+    width: 100%;
+  }
+  footer .ewm li p {
+    font-size: 12px;
   }
 }
