@@ -48,7 +48,7 @@
   position: absolute;
   right: 10px;
   top: 14px;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 .header ul > li > p:last-child:after {
   display: none;
@@ -128,7 +128,7 @@
   position: relative;
 }
 .banner .di > li {
-  transition: all 0.4s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .banner .di > li h6 {
@@ -631,7 +631,7 @@
   top: 310px;
 }
 .wrap .swiper-button-next {
-  background: url(../images/right.png) no-repeat right;
+  background: url(../images/right.png) no-repeat top right;
   top: 310px;
 }
 .wrap .des {
