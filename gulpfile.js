@@ -128,6 +128,7 @@ gulp.task('mobile-css', function () {
         .pipe(gulp.dest(app.distPath + 'm/css'))
         .pipe(connect.reload())
 })
+
 gulp.task('mobile-css2', function () {
     gulp.src(app.srcPath + 'm/style/*.less')
         .pipe(less())
@@ -175,6 +176,7 @@ gulp.task('server', ['build'], function () {
     gulp.watch(app.srcPath + 'style/**/*.scss', ['scss']);
     gulp.watch(app.srcPath + 'style/**/*.less', ['less']);
     gulp.watch(app.srcPath + 'm/style/**/*.scss', ['mobile-css']);
+    gulp.watch(app.srcPath + 'm/style/**/*.less', ['mobile-css2']);
     open('http://localhost:8888');
 });
 gulp.task('default', ['server']);
