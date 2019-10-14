@@ -1,0 +1,296 @@
+.banner.db {
+  height: 290px;
+  background: url(../images/db_bg.jpg) no-repeat center top;
+}
+.second {
+  width: 1200px;
+  margin: 30px auto;
+  position: relative;
+  height: 170px;
+}
+.second .name {
+  color: #fff;
+  width: 400px;
+  text-align: center;
+}
+.second .name h2 {
+  font-size: 50px;
+}
+.second .name p {
+  font-size: 23px;
+}
+.second .so {
+  font-size: 14px;
+  position: absolute;
+  right: 70px;
+  bottom: 0px;
+}
+.second .so input {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  border-right: none;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  text-indent: 20px;
+}
+.second .so a {
+  display: inline-block;
+  width: 60px;
+  height: 44px;
+  position: absolute;
+  border-radius: 0 20px 20px 0;
+  background: #1682e1 url(../images/so.png) no-repeat center;
+}
+.second .so input::-webkit-input-placeholder {
+  color: #fff;
+}
+.second .so input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+.second .so input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+.second .so input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+.jj {
+  width: 1200px;
+  margin: 40px auto 50px;
+  height: 452px;
+}
+.jj .pic {
+  width: 322px;
+  height: 452px;
+  overflow: hidden;
+  float: left;
+}
+.jj .pic img {
+  width: 100%;
+}
+.jj .js {
+  padding-top: 10px;
+  width: 844px;
+  float: right;
+  font-size: 24px;
+  color: #000;
+}
+.jj .js .q {
+  position: relative;
+  height: 50px;
+  border-bottom: 3px solid #f0f0f0;
+  padding-left: 20px;
+}
+.jj .js .q img {
+  width: 47px;
+  display: inline-block;
+}
+.jj .js .q p {
+  position: absolute;
+  top: 2px;
+  left: 67px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.jj .js .q p span {
+  font-size: 16px;
+  padding-left: 6px;
+}
+.jj .js .lan {
+  height: 90px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 20px;
+}
+.jj .js .lan li {
+  margin-top: 8px;
+  font-size: 14px;
+  float: left;
+  color: #000;
+  width: 270px;
+  line-height: 34px;
+}
+.jj .js .lan li span {
+  color: #727171;
+  width: 100px;
+  display: inline-block;
+}
+.jj .js .j {
+  padding-left: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+.jj .js .j h3 {
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+  line-height: 27px;
+}
+.jj .js .j p {
+  width: 700px;
+  margin-left: 80px;
+  margin-top: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+.contry {
+  width: 100%;
+  height: 234px;
+  background: #f5f5f5;
+  padding-top: 30px;
+}
+.contry .inner {
+  width: 1200px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 14px;
+}
+.contry .inner span {
+  float: left;
+  line-height: 40px;
+}
+.contry .inner ul {
+  width: 1100px;
+  float: left;
+}
+.contry .inner ul li {
+  float: left;
+  margin: 8px 3px;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.contry .inner ul li.active {
+  color: #fff;
+  background: #0c4c9b;
+}
+.contry .inner ul li.all.active {
+  color: #0c4c9b;
+  background: none;
+}
+.contry .inner ul li.hot {
+  position: relative;
+  margin: 8px 25px;
+}
+.contry .inner ul li.hot:before {
+  position: absolute;
+  width: 24px;
+  height: 12px;
+  left: -28px;
+  top: 4px;
+  line-height: 12px;
+  font-size: 12px;
+  content: 'Hot';
+  color: #fff;
+  background: #fe0000;
+  border-radius: 2px;
+  margin-right: 4px;
+  text-align: center;
+}
+.house .inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.house .inner ol.top {
+  margin-top: 20px;
+  height: 36px;
+  border-bottom: 2px solid #0c4c9b;
+}
+.house .inner ol.top li {
+  float: left;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+}
+.house .inner ol.top li.active {
+  background: #0c4c9b;
+  color: #fff;
+}
+.house .inner ul {
+  margin-bottom: 20px;
+}
+.house .inner ul li {
+  position: relative;
+  padding: 40px 0;
+  border-bottom: 1px solid #898989;
+  display: flex;
+  justify-content: space-between;
+}
+.house .inner ul li .des {
+  width: 900px;
+}
+.house .inner ul li .des h2 {
+  font-size: 28px;
+  color: #0c4c9b;
+  margin-bottom: 40px;
+}
+.house .inner ul li .des p {
+  font-size: 14px;
+  color: #898989;
+  margin-bottom: 30px;
+}
+.house .inner ul li .des p span {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #898989;
+}
+.house .inner ul li .des p span:last-child {
+  border: none;
+}
+.house .inner ul li .re {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+  background: #fe0000;
+  color: #fff;
+}
+.house .inner ul li .price {
+  position: absolute;
+  right: 10px;
+  top: 114px;
+  text-align: right;
+}
+.house .inner ul li .price h4 {
+  font-size: 28px;
+  color: #fe0000;
+}
+.house .inner ul li .price p {
+  font-size: 14px;
+  color: #898989;
+  line-height: 30px;
+}
+.house .inner ul li:hover {
+  background: #f5f5f5;
+}
+.house .inner .mb {
+  padding-bottom: 40px;
+  float: right;
+}
+.house .inner .mb li {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #898989;
+  border-right: none;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.house .inner .mb li.xia {
+  width: 80px;
+  border-right: 1px solid #898989;
+}
+.house .inner .mb li.active {
+  color: #fff;
+  background: #0c4c9b;
+}
