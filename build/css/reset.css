@@ -144,7 +144,11 @@ button {
     width: 1600px;
     margin: 0 auto; }
   .banner .logo {
-    margin-top: 26px; }
+    margin-top: 26px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0; }
   .banner .nav {
     position: absolute;
     left: 400px;
