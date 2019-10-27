@@ -278,4 +278,8 @@ footer {
       position: absolute;
       right: 12px;
       top: 0;
-      width: 200px; } }
+      width: 200px; }
+  .banner .nav {
+    left: 240px; }
+    .banner .nav li {
+      margin: 0 10px; } }
